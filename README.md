@@ -1,29 +1,29 @@
-## Algorítmo para resolver el problema del vendedor (TSP)
+# Algorítmo para resolver el problema del vendedor (TSP)
 
-###Instalación y ejecución
+### Instalación y ejecución
 el programa está escrito en c++ por lo que tendrás que tener el compilador g++ para poder compilarlo y ejecutar el programa.
 
 
 Primero tenemos que clonar el repositorio en nuestro dispositivo, se puede hacer usando la orden:   
 ``git clone https://github.com/josemariaaguilera/UGR-ALGORITMIA-TSP.git ``
 
-####Windows
+#### Windows
 Para compilar el programa:  
 ``g++ -std=c++11 -O3 tsp2.1.cpp -o tsp.exe``  
 Para ejecutar el programa:  
 ``./tsp.exe ./datos/ulysses<n>.tsp``
 
-####Linux
+#### Linux
 Para compilar el programa:  
 ``g++ -std=c++11 -O3 tsp2.1.cpp -o tsp``  
 Para ejecutar el programa:  
 ``./tsp ./datos/ulysses<n>.tsp``
 
-###Problema
+### Problema
 Antes de nada, hay que describir el problema a resolver.
 Dado un numero de ciudades con su posición, trata de calcular el camino mas corto para ir todas las ciudades, volviendo a la de partida, sin pasar dos veces por una ciudad.
 
-###Descripción del algoritmo
+### Descripción del algoritmo
 - genera una matriz con todas las distancias entre todas las ciudades.
 
 - ya que es un ciclo, da igual en que ciudad se empiece, asi que añade la
@@ -55,9 +55,9 @@ esta estimación es peor que la mejor solucion que tenemos hasta el momento
   camino mas corto que hemos descubierto hasta el momento, si es asi, este se
   convierte en el mejor camino.
 
-###Datos de interes
+### Datos de interes
 Para comprender un poco mejor el código, te podría ser de ayuda ver la imagen que esta en la carpeta /diagrama, pero antes, es recomendable leer la descripción del algoritmo.
 
-###Autores
-- José María Aguilera Barea (@josemariaaguilera)
-- Matilde Cabrera Gonzalez (@mati3)
+### Autores
+- José María Aguilera Barea ( @josemariaaguilera )
+- Matilde Cabrera Gonzalez ( @mati3 )
